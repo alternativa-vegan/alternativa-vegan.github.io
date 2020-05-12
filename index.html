@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="it">
+<title>L'alternativa vegan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Pacifico&family=Raleway&display=swap" rel="stylesheet">
+<meta name="description" content="Street food vegano a domicilio e take away a Cattolica (RN)"/>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-opacity-min">
+  <div class="w3-bar" id="myNavbar" style="background-color:white;">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <span class="material-icons">menu</span>
+    </a>
+    <a href="#menu" class="w3-bar-item w3-button w3-hide-small">Menù</a>
+    <a href="#consegne" class="w3-bar-item w3-button w3-hide-small">Consegne</a>
+    <a href="#contatti" class="w3-bar-item w3-button w3-hide-small">Contatti</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#menu" class="w3-bar-item w3-button" onclick="toggleFunction()">Menù</a>
+    <a href="#consegne" class="w3-bar-item w3-button" onclick="toggleFunction()">Consegne</a>
+    <a href="#contatti" class="w3-bar-item w3-button" onclick="toggleFunction()">Contatti</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-small w3-round-large w3-xxxlarge w3-wide w3-animate-opacity w3-text-black" style="font-family: 'Pacifico', cursive;">L'alternativa <span class="w3-hide-small">Vegan</span></span>
+  </div>
+</div>
+
+
+<!-- Container Sezione Menù -->
+<div class="w3-row w3-content w3-container w3-padding-64 w3-center" id="menu">
+  <h1 class="w3-center">Menù</h1>
+  <br>
+
+	  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+	  <div class="w3-row-padding w3-padding-16 w3-center">
+		    <div class="w3-third w3-padding-16">
+		      <img src="vegan-cheese-burger.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Vegan cheese burger"> <h6>VEGAN CHEESE BURGER 8€</h6>
+		    	 <p>
+		         Panino di segale e cereali, burger artigianale di fagioli, formaggio vegetale, cipolla rossa caramellata, pomodoro, insalata, cetriolini sott’aceto, maionese vegana.
+				</p>
+		    </div>
+
+		    <div class="w3-third w3-padding-16">
+		      <img src="italian-burger.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Spinach Burger"><h6>ITALIAN BURGER 7€</h6>
+		      <p>
+		        Panino di segale e cereali, burger artigianale di fagioli, crema di pomodori secchi, melanzane alla griglia, rucola, maionese vegana.
+		      </p>
+		    </div>
+
+		    <div class="w3-third w3-padding-16">
+		      <img src="patate-forno.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Patate al forno"><h6>PATATE AL FORNO 3€</h6>
+		      <p>
+		      Patate al forno aromatizzate con rosmarino.
+		      </p>
+		    </div>
+	  </div>
+
+	  <div class="w3-row-padding w3-padding-16 w3-center">
+		    <div class="w3-third w3-padding-16">
+		      <img src="american-burger.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="American burger"> <h6>AMERICAN BURGER 6€</h6>
+		    	 <p>
+		         Panino morbido con semi di sesamo, burger artigianale di fagioli, cipolla rossa caramellata, pomodoro, insalata, cetriolini sott’aceto, maionese vegana, ketchup.
+				</p>
+		    </div>
+
+		    <div class="w3-third w3-padding-16">
+		      <img src="spinach-burger.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Spinach Burger"><h6>SPINACH BURGER 6€</h6>
+		      <p>
+		       Panino morbido con semi di sesamo, burger artigianale di spinaci, zucchine grigliate, pomodoro, insalata, maionese vegana.
+		      </p>
+		    </div>
+
+		    <div class="w3-third w3-padding-16">
+		      <img src="vegan-kebab.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Arabian wrap"><h6>ARABIAN WRAP 7€</h6>
+		      <p>
+		      Piadina all’olio extra vergine di oliva con straccetti di seitan speziato, cavolo cappuccio e carote alla julienne, maionese vegana.
+		      </p>
+		    </div>
+	  </div>
+
+	  <div class="w3-row-padding w3-padding-16 w3-center">
+			<div class="w3-third w3-padding-16">
+		      <img src="corn-fritters.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Frittelline di verdure"><h6>FRITTELLINE DI VERDURE 4€</h6>
+		      <p>
+		      	Frittelline non fritte (cotte al forno) di patate, carote, zucchine e farina di mais (8 pz).
+		      </p>
+		    </div>
+
+		    <div class="w3-third w3-padding-16">
+		      <img src="falafel.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Falafel"><h6>FALAFEL 4€</h6>
+		      <p>
+		      	Polpettine di ceci e piselli (aromatizzate con prezzemolo, cumino e aglio) cotte al forno (8 pz).
+		      </p>
+		    </div>	 
+		    <div class="w3-third w3-padding-16">
+		      <img src="pancakes.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Patate al forno"><h6>BRUNCH DELLA DOMENICA 12€</h6>
+		      <p>
+		      Ogni domenica proponiamo un menù differente dolce e salato. (Prenotazione entro sabato mattina, i menù saranno aggiornati sulle nostre pagine social)
+		      </p>
+		    </div> 
+	  </div>
+</div>
+<!-- Fine sezione Menù -->
+
+
+<!-- Sezione Chi siamo -->
+<div class="w3-row w3-border w3-sand w3-padding-large">
+<div class="w3-half w3-container w3-col l6 m12">
+  <h2>HISTORY</h2>  
+    <p>Sono Manuela, la titolare de L'Alternativa vegan, dopo anni di gavetta nell’ambito della ristorazione e con una laurea in Scienze della Comunicazione, ho deciso di intraprendere questo tipo di avventura.<br>
+  	L’Alternativa vegan è un food truck che si propone di offrire gustoso cibo esclusivamente vegetale. Il progetto nasce nel 2016, dalla voglia e dall’esigenza di portare on the road il concetto di alimentazione cruelty free in maniera creativa e spensierata!<br>
+	Ritengo che il cibo vegan non dovrebbe essere considerato una rinuncia e per questo, con le mie ricette, mi piace esplorare, sperimentare, cercare di soddisfare anche le papille dei più diffidenti.
+	<br>
+	Utilizzo ingredienti naturali e genuini, prediligo lavorare artigianalmente le materie prime, dando vita alle svariate possibilità e combinazioni che possono offrire i vegetali.
+	Dal mio truck servo principalmente cibo di strada come burger, wrap, falafel, ma non mancano le occasioni in cui rivisito ricette etniche o preparo sfiziosi brunch dolci e salati.
+	</p>
+	<div class="w3-large w3-section"><p>Segui <strong>L'alternativa vegan</strong> sui social!
+   	<a href="https://www.facebook.com/alternativavegan/" title="Seguici su Facebook!" target="_new"><img src="https://img.icons8.com/ios/24/000000/facebook-new.png"/></a>
+    <a href="https://www.instagram.com/alternativavegan/" title="Seguici su instagram!" target="_new"><img src="https://img.icons8.com/ios/24/000000/instagram-new.png"/></a></p>
+  </div>
+</div>
+<div class="w3-half w3-container w3-col l6 m12">
+<img src="food-truck.jpg" class="w3-image w3-round" style="width:100%">
+</div>
+</div>
+<br>
+
+<!-- Consegne -->
+<div class="w3-content w3-container w3-padding-64" id="consegne">
+<div class="w3-row">
+	  <h1 class="w3-center">CONSEGNE A DOMICILIO</h1>
+	  <div class="w3-third w3-container w3-center">
+	    <h2 class="w3-center">DOVE <span class="material-icons">location_on</span></h2>
+		<p>A Cattolica, San Giovanni in Marignano, Gabicce Mare e Gradara.
+		</p><br>
+	  </div>
+	  <div class="w3-third w3-container w3-center">
+	    <h2 class="w3-center">QUANDO <span class="material-icons">date_range</span></h2>
+		<p>Consegnamo dal mercoledì al sabato dalle 12:00 alle 14:30 e dalle 19:00 alle 22:00. <br>La domenica mattina vi aspettiamo per ritirare il brunch take away dalle 11:00 alle 15:00 presso il food truck.
+		</p><br>
+	  </div>
+	  	<div class="w3-third w3-container w3-center">
+	    <h2 class="w3-center">COME PRENOTARE <span class="material-icons">perm_phone_msg</span></h2>
+		<p>Per prenotare a pranzo chiamare o mandare un messaggio whatsapp dalle 9:00 alle 11:00.<br>
+		Per prenotare a cena chiamare o mandare un messaggio whatsapp dalle 16:00 alle 18:00.<br>
+		Per prenotare il brunch chiamare o mandare un messaggio whatsapp entro sabato mattina.
+		</p><br>
+	  </div>
+	  <h2 class="w3-center">Per chiamate e whatsapp: <img src="https://img.icons8.com/material-outlined/24/000000/whatsapp.png"/>3245853124</h2><p class="w3-center">Costo consegna 2€. Consegna gratuita con una spesa pari o superiore a 20€.<br>Pagamento alla consegna in contanti e pos. 
+	  	<h2 class="w3-center"> Per rimanere in contatto con noi, iscriviti alla newsletter!</h2>
+
+	  <!-- Begin Mailchimp Signup Form -->
+
+		<div id="mc_embed_signup" class="w3-center">
+			<form action="https://gmail.us18.list-manage.com/subscribe/post?u=4a0a4ff5f1d331830b18bfbf9&amp;id=79c607d775" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			    <div id="mc_embed_signup_scroll">
+				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Inserisci la tua email" required style="width: 50%; text-align: center; border-radius: 12px; font-family: 'Raleway', sans-serif;display: inline-block; font-size: 16px; margin: 4px 2px;">
+			    </div>
+			    <button class="button button1">Voglio ricevere aggiornamenti!</button>
+			</form>
+		</div>
+
+<!--End mc_embed_signup-->
+
+</div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><span class="material-icons">clear</span></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contatti">
+  <h1 class="w3-center">CONTATTI</h1>
+	<div class="w3-row w3-padding-32 w3-section">
+	    <div class="w3-col m6 w3-container">
+	      <img src="food-truck2.jpg" class="w3-image w3-round" style="width:100%">
+	    </div>
+    <div class="w3-col m6 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <span class="material-icons w3-xlarge w3-margin-right">room</span>Via Garibaldi 174, Cattolica, (RN)<br>
+        <span class="material-icons w3-hover-text-black w3-xlarge w3-margin-right">phone</span>Telefono: 3245853124<br>
+        <span class="material-icons w3-xlarge w3-margin-right">email</span>Email: alternativafoodtruck@gmail.com<br>
+      </div>
+      <div class="container"><h4> Consegnamo dal mercoledì al sabato dalle 12:00 alle 14:30 e dalle 19:00 alle 22:00.</h4><p> Per prenotare a pranzo chiamare o mandare un messaggio whatsapp dalle 9:00 alle 11:00.<br>
+	  Per prenotare a cena chiamare o mandare un messaggio whatsapp dalle 16:00 alle 18:00.</p>
+	  </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-sand w3-padding-64 w3-opacity w3-hover-opacity-off">
+<a href="#home" class="w3-button w3-light-grey"><span class="material-icons">arrow_upward</span>To the top</a>
+<div class="w3-content w3-container w3-padding-64">
+	<div class="w3-row"> 
+		<div class="w3-third w3-container w3-center">
+			     <p>L'alternativa vegan di Ercoles Manuela.<br>
+			     	47841 - Cattolica (RN)<br>
+			     	P.I. 06619480483
+			     </p>
+		</div>
+	    <div class="w3-third w3-container w3-center">
+            <div class="w3-xlarge w3-section">
+		   	<a href="https://www.facebook.com/alternativavegan/" title="Seguici su Facebook!" target="_new"><img src="https://img.icons8.com/ios/48/000000/facebook-new.png"/></a>
+		    <a href="https://www.instagram.com/alternativavegan/" title="Seguici su instagram!" target="_new"><img src="https://img.icons8.com/ios/48/000000/instagram-new.png"/></a>
+		    </div>
+		</div>  
+ 		<div class="w3-third w3-container w3-center">
+			 <p>Per chiamate e messaggi<br>
+			 <img src="https://img.icons8.com/material-outlined/24/000000/whatsapp.png"/>3245853124
+			 </p>
+		</div>
+	</div>
+<a href="https://icons8.com/icon/32292/instagram">Icons by Icons8</a>
+</div>
+</footer>
+<!-- Fine Footer -->
+
+
+
+<!-- Scrip -->
+
+<script>
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
