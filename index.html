@@ -25,135 +25,32 @@
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <span class="material-icons">menu</span>
     </a>
+    <a href="#chisiamo" class="w3-bar-item w3-button w3-hide-small">Chi siamo</a>
     <a href="#menu" class="w3-bar-item w3-button w3-hide-small">Menù</a>
-    <a href="#consegne" class="w3-bar-item w3-button w3-hide-small">Consegne</a>
+    <a href="#eventi" class="w3-bar-item w3-button w3-hide-small">Eventi</a>
+    <a href="#delivery" class="w3-bar-item w3-button w3-hide-small">Delivery</a>
     <a href="#contatti" class="w3-bar-item w3-button w3-hide-small">Contatti</a>
   </div>
 
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#chisiamo" class="w3-bar-item w3-button" onclick="toggleFunction()">Chi siamo</a>
     <a href="#menu" class="w3-bar-item w3-button" onclick="toggleFunction()">Menù</a>
-    <a href="#consegne" class="w3-bar-item w3-button" onclick="toggleFunction()">Consegne</a>
+    <a href="#eventi" class="w3-bar-item w3-button" onclick="toggleFunction()">Eventi</a>
+    <a href="#delivery" class="w3-bar-item w3-button" onclick="toggleFunction()">Delivery</a>
     <a href="#contatti" class="w3-bar-item w3-button" onclick="toggleFunction()">Contatti</a>
   </div>
 </div>
 
-<!-- First Parallax Image with Logo Text -->
+<!-- First Parallax Image -->
 <div class="bgimg-1 w3-display-container" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-small w3-round-large w3-xxxlarge w3-wide w3-animate-opacity w3-text-black" style="font-family: 'Pacifico', cursive;">L'alternativa <span class="w3-hide-small">Vegan</span></span>
-  </div>
+
 </div>
-
-
-<!-- Container Sezione Menù -->
-<div class="w3-row w3-content w3-container w3-padding-64 w3-center" id="menu">
-  <h1 class="w3-center">Menù</h1>
-  <br>
-
-	  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-	  <div class="w3-row-padding w3-padding-16 w3-center">
-		    <div class="w3-quarter w3-padding-16">
-		      <img src="american-burger.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="American burger"> <h6>AMERICAN BURGER 8€</h6>
-		    	 <p>
-		         Pane al sesamo di nostra produzione, burger artigianale di fagioli, formaggio vegetale, cipolla rossa caramellata, pomodoro, insalata, maionese vegana.
-			 </p>
-		    </div>
-
-		    <div class="w3-quarter w3-padding-16">
-		      <img src="italian-burger.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Italian burger"><h6>ITALIAN BURGER 8€</h6>
-		      <p>
-		      Pane al sesamo di nostra produzione, burger artigianale di fagioli, crema di pomodori secchi, melanzane alla piastra, rucola, maionese vegana.
-		      </p>
-		    </div>
-		  
-		  <div class="w3-quarter w3-padding-16">
-		      <img src="no-chicken-burger.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="No-chicken burger"> <h6>NO-CHICKEN BURGER 7€</h6>
-		    	 <p>
-		         Pane al sesamo di nostra produzione, cotoletta vegetale artigianale, pomodori, zucchine alla piastra, salsa rosa.
-			</p>
-		    </div>
-		  
-		  <div class="w3-quarter w3-padding-16">
-		      <img src="vegan-kebab.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Arabian wrap"><h6>ARABIAN WRAP 8€</h6>
-		      <p>
-		      Piadina all’olio extra vergine di oliva con straccetti di seitan speziato, cavolo cappuccio e carote alla julienne, maionese vegana.
-		      </p>
-		    </div>
-	  </div>
-
-	  <div class="w3-row-padding w3-padding-16 w3-center">
-
-		    <div class="w3-quarter w3-padding-16">
-		      <img src="empanada.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empanada"><h6>EMPANADA 3€ L'UNITÀ</h6>
-		 	     <p>
-				Fagottino di pasta semintegrale ripieno di bietole, spinaci e porro.
-			     </p> 
-		  </div>
-		  
-		  
-		    <div class="w3-quarter w3-padding-16">
-		      <img src="samosa.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Samosa"><h6>SAMOSA 3€ L'UNITÀ</h6>
-			    <p>
-				Fagottino di pasta semintegrale in stile indiano, ripieno di patate, carote e piselli al curry.			    
-			    </p>
-		    </div>
-		  
-		  
-		    <div class="w3-quarter w3-padding-16">
-		      <img src="corn-fritters.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="FRITTELLINE"><h6>FRITTELLINE 4€</h6>
-			    <p>
-				Frittelline non fritte (cotte al forno) con patate, zucchine e carote (6pz).		    
-			    </p>
-		    </div>
-		  
-		 <div class="w3-quarter w3-padding-16">
-		      <img src="patatine.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Patatine"><h6>PATATINE 4€</h6>
-			 <p>
-			 Patatine fritte.
-			 </p>
-		    </div>
-		  
-		  
-	   </div>  
-	
-	
-           <div class="w3-row-padding w3-padding-16 w3-center">	 
-		   
-		   <div class="w3-quarter w3-padding-16">
-		      <img src="box-apericena.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Box aperitivo"><h6>BOX APERITIVO 10€</h6>
-			 <p>
-			  1 empanada, 1 samosa, frittelline (6pz) e maionese vegetale.
-			 </p>
-		    </div>
-		   
-		   <div class="w3-quarter w3-padding-16">
-		          <img src="tiramisu-vegan.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tiramisù vegan"><h6>TIRAMISÙ VEGAN 3€</h6>
-		          <p>
-			   Dolce al cucchiaio a base di panna di soia, biscotti digestive, caffè e cacao.      
-			  </p>
-		    </div>
-		   
-		   <div class="w3-quarter w3-padding-16">
-		      <img src="menù-combo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Menù combo"><h6>MENÙ COMBO 12€</h6>
-		       <p>
-			Panino a scelta + patatine + dolce o bibita a 12€.<br> Come bibita puoi scegliere tra Coca-Cola, Coca-Cola zero, Fanta, Sprite, birra Ichnusa da 33 cl e le bibite Lurisia (aranciata, chinotto, gazzosa).  
-		      </p>
-		   </div>
-
-		   <div class="w3-quarter w3-padding-16">
-
-		   </div>
-	  </div>   
-	
-</div>
-<!-- Fine sezione Menù -->
 
 
 <!-- Sezione Chi siamo -->
 <div class="w3-row w3-border w3-sand w3-padding-large">
 <div class="w3-half w3-container w3-col l6 m12">
-  <h2>HISTORY</h2>  
+  <h2>CHI SIAMO</h2>  
     <p>Sono Manuela, la titolare de L'Alternativa vegan, dopo anni di gavetta nell’ambito della ristorazione e con una laurea in Scienze della Comunicazione, ho deciso di intraprendere questo tipo di avventura.<br>
   	L’Alternativa vegan è un food truck che si propone di offrire gustoso cibo esclusivamente vegetale. Il progetto nasce nel 2016, dalla voglia e dall’esigenza di portare on the road il concetto di alimentazione cruelty free in maniera creativa e spensierata!<br>
 	Ritengo che il cibo vegan non dovrebbe essere considerato una rinuncia e per questo, con le mie ricette, mi piace esplorare, sperimentare, cercare di soddisfare anche le papille dei più diffidenti.
@@ -171,30 +68,102 @@
 </div>
 </div>
 <br>
+<!-- Fine sezione chi siamo -->
 
-<!-- Dove siamo -->
-<div class="w3-content w3-container w3-padding-64" id="consegne">
-   <div class="w3-row">
-	  <h1 class="w3-center">CONSEGNE</h1>
-	  <div class="w3-third w3-container w3-center">
-	    <h2 class="w3-center">DOVE <span class="material-icons">location_on</span></h2>
-		<p>Consegniamo a pranzo su: <br> Cattolica e Gabicce - ordine minimo 12€ <br> San Giovanni in Marignano - ordine minimo 20€ <br> A cena consegniamo anche su: <br> Gradara - ordine minimo 20€ <br> Misano e Riccione (zone Fontanelle, Paese e Abissinia) - ordine minimo 30€</p>
+<!-- Container Sezione Menù -->
+<div class="w3-row w3-content w3-container w3-padding-64 w3-center" id="menu">
+  <h1 class="w3-center">Menù</h1>
+  <br>
+
+	  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+	  <div class="w3-row-padding w3-padding-16 w3-center">
+		    <div class="w3-third w3-padding-16">
+		      <img src="american-burger.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="American burger"> <h6>AMERICAN BURGER 8€</h6>
+		    	 <p>
+		         Pane al sesamo di nostra produzione, burger artigianale di fagioli, formaggio vegetale, cipolla rossa caramellata, pomodoro, insalata, maionese vegana.
+			 </p>
+		    </div>
+
+		    <div class="w3-third w3-padding-16">
+		      <img src="italian-burger.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Italian burger"><h6>ITALIAN BURGER 8€</h6>
+		      <p>
+		      Pane al sesamo di nostra produzione, burger artigianale di fagioli, crema di pomodori secchi, melanzane alla piastra, rucola, maionese vegana.
+		      </p>
+		    </div>
+		  
+		  <div class="w3-third w3-padding-16">
+		      <img src="vegan-kebab.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Arabian wrap"><h6>ARABIAN WRAP 8€</h6>
+		      <p>
+		      Piadina all’olio extra vergine di oliva con straccetti di seitan speziato, cavolo cappuccio e carote alla julienne, maionese vegana.
+		      </p>
+		    </div>
 	  </div>
-	  <div class="w3-third w3-container w3-center">
-	    <h2 class="w3-center">QUANDO <span class="material-icons">date_range</span></h2>
-		<p>Dal lunedì al venerdì dalle 12 alle 14 (ordinazioni entro le 11). <br> Tutte le sere dalle 19 alle 22 (ordinazioni entro le 21).<br> Solo il sabato sera le zone coperte sono ridotte. Consegniamo su Cattolica, Gabicce, San Giovanni e Gradara.
-		</p><br>
-	  </div>
-	  <div class="w3-third w3-container w3-center">
-	    <h2 class="w3-center">PAGAMENTI<span class="material-icons">euro_symbol</span></h2>
-		<p>I pagamenti possono essere effettuati in contanti o bancomat alla consegna, Satispay e carta prepagata (prima della consegna).
-		</p><br>
-	  </div>
-    </div>
-	<h2 class="w3-center">Per ordinare chiama o manda un messaggio al<img src="https://img.icons8.com/material-outlined/24/000000/whatsapp.png"/>3245853124</h2><br>
-	<h2 class="w3-center">Per rimanere aggiornato, iscriviti alla newsletter!</h2>
+
+	  <div class="w3-row-padding w3-padding-16 w3-center">
+
+		  <div class="w3-third w3-padding-16">
+		      <img src="corn-fritters.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="FRITTELLINE"><h6>FRITTELLINE 4€</h6>
+		        <p>
+			  Frittelline non fritte (cotte al forno) con patate, zucchine e carote (6pz).		    
+		        </p>
+		   </div>
+		  
+		  
+		 <div class="w3-third w3-padding-16">
+		      <img src="patatine.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Patatine"><h6>PATATINE 4€</h6>
+			 <p>
+			 Patatine fritte.
+			 </p>
+		    </div>
+		  
+		   <div class="w3-third w3-padding-16">
+		          <img src="tiramisu-vegan.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Tiramisù vegan"><h6>TIRAMISÙ VEGAN 3€</h6>
+		          <p>
+			   Dolce al cucchiaio a base di panna di soia, biscotti digestive, caffè e cacao.      
+			  </p>
+		    </div>
+		  
+		  
+	   </div>  
 	
-	  <!-- Begin Mailchimp Signup Form -->
+</div>
+<!-- Fine sezione Menù -->
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+</div>
+
+
+<!-- Eventi e catering -->
+<div class="w3-content w3-container w3-padding-64" id="eventi">
+	<div class="w3-row">
+	  	<h1 class="w3-center">EVENTI E CATERING</h1>
+
+	  	<div class="w3-third w3-container w3-center">
+	    	<h2 class="w3-center">QUANDO <span class="material-icons">date_range</span></h2>
+			<p>Siamo disponibili da giugno fino a settembre. Se stai cercando una proposta alternativa, l'hai trovata!
+			</p><br>
+	  	</div>
+
+	  	<div class="w3-third w3-container w3-center">
+	    	<h2 class="w3-center">DOVE <span class="material-icons">location_on</span></h2>
+			<p>Ci spostiamo tra Emilia Romagna e Marche. La nostra base è a Cattolica. <br> Se sei nel radar contattaci!
+			</p><br>
+	  	</div>
+
+	  	<div class="w3-third w3-container w3-center">
+	    	<h2 class="w3-center">COME TROVARCI <span class="material-icons">map</span></h2>
+			<p>Per non perdere i nostri appuntamenti itineranti seguici sui nostri profili social! <br>  <a href="https://www.facebook.com/alternativavegan/" title="Seguici su Facebook!" target="_new"><img src="https://img.icons8.com/ios/24/000000/facebook-new.png"/></a>
+    		<a href="https://www.instagram.com/alternativavegan/" title="Seguici su instagram!" target="_new"><img src="https://img.icons8.com/ios/24/000000/instagram-new.png"/></a></p>
+			</p><br>
+	  	</div>
+	</div>
+	  
+	<div class="w3-row">
+	  	
+	  	<h2 class="w3-center"> Per rimanere in contatto con noi, iscriviti alla newsletter!</h2>
+
+<!-- Begin Mailchimp Signup Form -->
 
 		<div id="mc_embed_signup" class="w3-center">
 			<form action="https://gmail.us18.list-manage.com/subscribe/post?u=4a0a4ff5f1d331830b18bfbf9&amp;id=79c607d775" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -207,7 +176,7 @@
 
 <!--End mc_embed_signup-->
 
-</div>
+	</div>
 </div>
 
 <!-- Modal for full size images on click-->
@@ -219,27 +188,34 @@
   </div>
 </div>
 
+<!-- Delivery e take away -->
+<div class="w3-row w3-border w3-sand w3-padding-large" id="delivery">
+	<div class="w3-half w3-container w3-col l6 m12">
+		<img src="delivery-asporto.jpg" class="w3-image w3-round" style="width:100%">
+	</div>
+	<div class="w3-half w3-container w3-col l6 m12" id="chisiamo">
+  		<h2>DELIVERY E TAKE AWAY</h2>  
+    	<h4>Dal 16 giugno ogni mercoledì, se vivi o sei in vacanza a Cattolica, Gabicce, Gradara o San Giovanni in Marignano, potrai ordinare la tua cena vegana dalle 19 alle 21:30 e te la consegniamo noi! Oppure puoi passare tu a ritirare l'ordine presso il food truck che rimarrà parcheggiato in via Garibaldi 174, Cattolica. <br> Chiamaci o scrivici al 3245853124.</h4>
 
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
+	</div>
+
 </div>
+
+
 
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contatti">
   <h1 class="w3-center">CONTATTI</h1>
 	<div class="w3-row w3-padding-32 w3-section">
 	    <div class="w3-col m6 w3-container">
-	      <img src="food-truck2.jpg" class="w3-image w3-round" style="width:100%">
+	      <img src="L'alternativa_vegan.jpeg" class="w3-image w3-round" style="width:100%">
 	    </div>
     <div class="w3-col m6 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <span class="material-icons w3-hover-text-black w3-xlarge w3-margin-right">phone</span>Telefono: 3245853124<br>
         <span class="material-icons w3-xlarge w3-margin-right">email</span>Email: alternativafoodtruck@gmail.com<br>
-	<span class="material-icons w3-margin-right">schedule</span>Orari: Lun/Ven 12 - 14 (ordinazioni entro le 11)<br>
-	<span class="material-icons w3-margin-right">schedule</span>19 - 22 (ordinazioni entro le 21)<br>
-	<span class="material-icons w3-margin-right">schedule</span>Sab e Dom 19 - 22 (ordinazioni entro le 21). 
       </div>
-          <div class="container"><h4>Effettuiamo consegne a domicilio gratuite su: <br> Cattolica e Gabicce - ordine minimo 12€ <br> Gradara e San Giovanni in Marignano - ordine minimo 20€ <br> Misano e Riccione (zone Fontanelle, Paese e Abissinia) - ordine minimo 30€</h4><br>
+      <div class="container"><h4> Se vuoi conoscerci un po' di più chiamaci o mandaci una mail.</h4><p>Puoi richiedere un preventivo per la tua festa privata o informazioni sui nostri spostamenti.</p>
 	  </div>
     </div>
   </div>
